@@ -1,0 +1,30 @@
+.fundo-preto {
+  background-color: #060606;
+}
+
+.fundo-cinza-claro {
+  background-color: #adb5bd;
+}
+
+body {
+  background: #2f363e;
+}
+
+/* fontes */
+.fonte-preta {
+  color: #060606;
+}
+
+.fonte-cinza-claro {
+  color: #adb5bd;
+}
+
+.font-gill {
+  font-family: 'Gill Sans',
+    'Gill Sans MT', Calibri,
+    'Trebuchet MS', sans-serif;
+  color: #adb5bd;
+}
+
+
+/* classes pré-feitas */
