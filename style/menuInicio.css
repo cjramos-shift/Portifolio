@@ -107,7 +107,7 @@
     height: 60px;
     border: 2px solid var(--clr);
     box-sizing: border-box;
-    background: #2f363e;
+    background: #0e0b0d;
     z-index: -1;
     transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
     -webkit-transform: rotate(calc(var(--i) * 90deg)) translate(0px, 0px);
@@ -125,8 +125,8 @@
   
   .menu.active li:hover a::before {
     background: var(--clr);
-    color: #2f363e;
-    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 50px var(--clr);
+    color: #000000;
+    box-shadow: 0 0 10px var(--clr), 0 0 10px var(--clr), 0 0 20px var(--clr);
   }
   
   .menu li a::after {

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+    <!-- classes personalizadas -->
+    <link href="../style/index.css" rel="stylesheet">
+    <link rel="icon" href="../images\icons8-code.gif" type="image/gif" />
+
+    <!-- fonte prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Sobre mim</title>
+
+    <style>
+        .title {
+            color: black;
+            font-size: 18px;
+        }
+
+        .negrito {
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body class="prompt-thin-italic">
+    <button class="back-button" onclick="history.back()">
+        <i class="bi bi-arrow-return-left"></i>
+    </button>
+    <div class="container">
+        <div class="mt-4 pt-4">
+            <div class="card">
+                <div class="py-3 row">
+                    <div class="col-md-3 text-center">
+                        <img class="img-thumbnail" src="../images/Eu_12_2020.jpg" alt="Claudio" style="width:80%">
+                    </div>
+                    <div class="col-md-9 negrito">
+                        <h1>Cláudio José Caetano Ramos</h1>
+                        <p class="title">Desenvolvedor Web</p>
+                        <label class="title">Sobre mim</label><br>
+                        <p>
+                            Profissional com um percurso de três anos na área de análise e desenvolvimento de
+                            sistemas. A minha trajetória engloba a contribuição em variados projetos, abrangendo
+                            desde o desenvolvimento de aplicações, até a otimização de sistemas preexistentes, incluindo
+                            a
+                            engenharia e estabelecimento de API/Web Services. A minha atuação atual se concentra na
+                            sinergia entre sistemas ERP, alinhada com a criação de um serviço cíclico que realiza
+                            consultas a uma base de dados e, mediante uma API, efetua o armazenamento de dados no
+                            âmago de um sistema.
+                        </p>
+
+                        <label class="title">Tecnologias e Linguagens conhecidas</label><br>
+                        <div id="icons" class="pb-2">
+                            <img data-toggle="tooltip" data-placement="top" title="HTML" align="center" height="30"
+                                width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="CSS" align="center" height="30"
+                                width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="JavaScript" align="center"
+                                height="30" width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="C#" align="center" height="30"
+                                width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title=".NET" align="center" height="30"
+                                width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="Postman" align="center" height="30"
+                                width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="SQL Developer" align="center"
+                                height="30" width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqldeveloper/sqldeveloper-original.svg">
+                            <img data-toggle="tooltip" data-placement="top" title="SQL Server" align="center"
+                                height="30" width="40"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg">
+                        </div>
+
+                        <div class="p-2 row">
+                            <div class="col">
+                                <a class="button text-white rounded" href="#"
+                                    onclick="nextPageWithTransition('./contato.html')">
+                                    <i class="bi bi-telephone-fill m-2"></i>Contato</a>
+                            </div>
+                            <div class="col">
+                                <a class="button text-white rounded" href="#"
+                                    onclick="nextPageWithTransition('./projetos.html')">
+                                    <i class="bi bi-code-slash m-2"></i>Projetos</a>
+                            </div>
+                            <div class="col">
+                                <a class="button text-white rounded" href="/documents/Cláudio Currículo.pdf"
+                                    target="_blank"><i class="bi bi-file-person-fill m-2"></i>Currículo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="m-2 p-2 row bg-dark text-white">
+                    <h2>Meu GitHub</h2>
+                    <hr>
+                    <div class="text-left col-md-12" id="readme-content"></div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="..\script\index.js"></script> -->
+    <script src="..\node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="..\node_modules/bootstrap/js/dist/tooltip.js"></script>
+    <script src="..\script\perfil.js"></script>
+</body>
+
+</html>

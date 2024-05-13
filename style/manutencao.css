@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .coming-soon-container {
+    text-align: center;
+    margin-top: 20vh; /* ajuste conforme necessário */
+  }
+  
+  .coming-soon-title {
+    font-size: 3em;
+  }
+  
+  .highlight {
+    color: #ff0; /* cor de destaque para 'Soon' */
+  }
+  
+  .lamp {
+    width: 100px;
+    height: 150px;
+    background-image: url('lamp.png'); /* insira o link ou o caminho para a imagem da lâmpada */
+    background-size: cover;
+    margin: 20px auto; /* ajuste conforme necessário */
+  }  
+
+  .alert-board {
+    border: 2px solid #ff9800; /* cor da borda */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaço interno */
+    margin: 20px auto; /* centralizar */
+    max-width: 400px; /* largura máxima */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* sombra */
+  }
+  
